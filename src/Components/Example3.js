@@ -1,5 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 
+
+// Importera detta för att kunna access CSS koden till denna komponent
+import './Eample3.css';
+
 export default () => {
   const sceneRef = useRef(null);
 
