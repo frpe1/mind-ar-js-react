@@ -2,10 +2,13 @@ import React, { useEffect, useRef } from 'react';
 
 
 // Importera detta för att kunna access CSS koden till denna komponent
-import './Eample3.css';
+import './Example3.css';
 
 export default () => {
   const sceneRef = useRef(null);
+
+  // TODO: här måste vi få in relevant för just vår facemesh tracking
+  // så vi kan attacha våra örhängen senare (on-virtualtry)
 
   useEffect(() => {
     const sceneEl = sceneRef.current;

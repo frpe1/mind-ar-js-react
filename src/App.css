@@ -9,3 +9,23 @@
   width: 600px;
   overflow: hidden;
 }
+
+.title {
+  text-transform: uppercase;
+  font-size: 18pt;
+}
+
+
+.ar-button {
+  padding: 30px;
+  font-size: 16pt;
+  color: white;
+}
+
+.ar-button--start {
+  background-color: black;
+}
+
+.ar-button--stop {
+  background-color: #500;
+}

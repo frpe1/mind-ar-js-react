@@ -18,8 +18,8 @@ import './App.css';
 // STEG 1 ) Här inkluderar vi Example1.js komponenten som gör det möjligt med AR via "Mind-AR"
 // OBS använd bara ett exempel i taget och studera detta för att förstå vad de gör och hur de används
 //import MindARViewer from './Components/Example1';
-import MindARViewer from './Components/Example2';
-//import MindARViewer from './Components/Example3';
+//import MindARViewer from './Components/Example2';
+import MindARViewer from './Components/Example3';
 
 // STEG 2 ) Lägg sedan till i koden nedan följande tagg <MindARViewer/> för att accessa AR i koden
 
@@ -27,7 +27,7 @@ function App() {
   const [started, setStarted] = useState(false);
   return (
     <div className="App">
-      <h1>Provrum</h1>
+      <h1 className='title'>Provrum</h1>
       <BsCamera />
       
       {started && (
@@ -38,8 +38,8 @@ function App() {
       )}
 
       <div>
-        {!started && <button onClick={() => {setStarted(true)}}>Starta Tracking</button>}
-        {started && <button onClick={() => {setStarted(false)}}>Stoppa Tracking</button>}
+        {!started && <button className='ar-button ar-button--start' onClick={() => {setStarted(true)}}>Starta Tracking</button>}
+        {started && <button  className='ar-button ar-button--stop' onClick={() => {setStarted(false)}}>Stoppa Tracking</button>}
       </div>
       
     </div>
