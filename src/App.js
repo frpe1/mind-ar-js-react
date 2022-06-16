@@ -6,8 +6,10 @@ import 'aframe';
 import 'mind-ar/dist/mindar-image-aframe.prod.js';
 import './App.css';
 
-// **** Här inkluderar vi mindar-viewer.js komponenten som gör det möjligt med AR via "Mind-AR"
-import MindARViewer from './mindar-viewer';
+// STEG 1 ) Här inkluderar vi Example1.js komponenten som gör det möjligt med AR via "Mind-AR"
+import MindARViewer from './Example1';
+
+// STEG 2 ) Lägg sedan till i koden nedan följande tagg <MindARViewer/> för att accessa AR i koden
 
 function App() {
   const [started, setStarted] = useState(false);
