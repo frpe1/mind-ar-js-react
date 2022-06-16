@@ -4186,6 +4186,7 @@
     "ms" "2.0.0"
 
 "debug@github:ngokevin/debug#noTimestamp":
+  "integrity" "sha512-rUI9wkpSlmwV2QQcE+jDnEdUPyRG+alTguuGlIJHW1PRMycHzpGy24htiAOiBdg6jYFXduQw4JuA1lvKh3DwzA=="
   "resolved" "git+ssh://git@github.com/ngokevin/debug.git#ef5f8e66d49ce8bc64c6f282c15f8b7164409e3a"
   "version" "2.2.0"
 
@@ -4400,6 +4401,7 @@
     "isarray" "^1.0.0"
 
 "document-register-element@github:dmarcos/document-register-element#8ccc532b7f3744be954574caf3072a5fd260ca90":
+  "integrity" "sha512-dwvGei9I/m1pYQ/9aNODyVmvSWBtlncfIROn5Sbi4MVnIcZKre5QaWx+AGLI/j6VH9sp8jwLyeuWP1micANT0g=="
   "resolved" "git+ssh://git@github.com/dmarcos/document-register-element.git#8ccc532b7f3744be954574caf3072a5fd260ca90"
   "version" "0.5.4"
 
@@ -9603,6 +9605,11 @@
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.9.tgz"
   "version" "6.0.9"
 
+"react-icons@^4.4.0":
+  "integrity" "sha512-fSbvHeVYo/B5/L4VhB7sBA1i2tS8MkT0Hb9t2H1AVPkwGfVHLJCqyr2Py9dKMxsyM63Eng1GkdZfbWj+Fmv8Rg=="
+  "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.4.0.tgz"
+  "version" "4.4.0"
+
 "react-is@^16.8.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
@@ -11260,6 +11267,7 @@
   "version" "0.2.0"
 
 "three-bmfont-text@github:dmarcos/three-bmfont-text#1babdf8507c731a18f8af3b807292e2b9740955e":
+  "integrity" "sha512-1ACVhQynOX5fUHx9WY0leDApaQ8fa12wdU+z1iVRCiMDq5bZGw67kqUgEBrbK1BQ5awTZL3+VG3LX5xg+ty89Q=="
   "resolved" "git+ssh://git@github.com/dmarcos/three-bmfont-text.git#1babdf8507c731a18f8af3b807292e2b9740955e"
   "version" "2.3.0"
   dependencies:
@@ -11272,6 +11280,7 @@
     "three-buffer-vertex-data" "dmarcos/three-buffer-vertex-data#69378fc58daf27d3b1d930df9f233473e4a4818c"
 
 "three-buffer-vertex-data@dmarcos/three-buffer-vertex-data#69378fc58daf27d3b1d930df9f233473e4a4818c":
+  "integrity" "sha512-ZPCCbGfueRzd2/YwH136UnVN+N11Mvxu7uPaEzIdtuk0m5HPs1LGXOM5hOkpxamjvqSC6MDJ3nd11grGi7sMKw=="
   "resolved" "git+ssh://git@github.com/dmarcos/three-buffer-vertex-data.git#69378fc58daf27d3b1d930df9f233473e4a4818c"
   "version" "1.1.0"
   dependencies:

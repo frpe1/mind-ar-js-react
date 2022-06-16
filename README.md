@@ -31,3 +31,8 @@ så lägger du in taggen <MindARViewer/>
 
 Lär mer om Mind AR
 https://hiukim.github.io/mind-ar-js-doc
+
+Här hittar du mer om React Icons och hur du använder dessa
+https://react-icons.github.io/react-icons/
+https://www.freecodecamp.org/news/how-to-use-react-icons/
+
