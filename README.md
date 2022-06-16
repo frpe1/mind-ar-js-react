@@ -1,20 +1,27 @@
 # React example with MindAR 
 
-This is an example project of using [MindAR](https://github.com/hiukim/mind-ar-js) in React 
+Enkel setup för Mind AR och REACT
 
-The react component is inside `src/MindARViewer`. Everything else are created from `create-react-app`, and they are irrelevant. 
-
-# Screenshot
-|![alt text](https://github.com/hiukim/mind-ar-js-react/blob/master/screenshot.png?raw=true)|
-|-
-
-# It demonstrates:
-
-1. how to import MindAR as a npm package
-2. how to create a React component for MindAR
-
-# To run
+# Så här kör man
 ```
 > npm install
 > npm run start
 ```
+
+
+# Så här bygger man en "app" för publicering
+```
+> npm run build
+```
+
+
+# Så här använder du Mind AR med react när du kodar
+
+I filen mindar-viewer.js finns Mind-AR koden inbakad med kod skrivet i reactjs. 
+Se längs ned i den filen mellan return (....)
+
+
+
+# Länk till MindAR
+
+https://hiukim.github.io/mind-ar-js-doc
