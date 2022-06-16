@@ -2,6 +2,13 @@
 
 Enkel setup för Mind AR och REACT
 
+# Demo
+
+Demo
+```
+https://utopiafx.se/reactapps/5/
+```
+
 # Så här kör man
 ```
 > npm install

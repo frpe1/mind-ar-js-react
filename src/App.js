@@ -18,8 +18,8 @@ import './App.css';
 // STEG 1 ) Här inkluderar vi Example1.js komponenten som gör det möjligt med AR via "Mind-AR"
 // OBS använd bara ett exempel i taget och studera detta för att förstå vad de gör och hur de används
 //import MindARViewer from './Components/Example1';
-//import MindARViewer from './Components/Example2';
-import MindARViewer from './Components/Example3';
+import MindARViewer from './Components/Example2';
+//import MindARViewer from './Components/Example3';
 
 // STEG 2 ) Lägg sedan till i koden nedan följande tagg <MindARViewer/> för att accessa AR i koden
 
